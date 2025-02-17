@@ -1,3 +1,6 @@
+This is the StreamList app that I was tasked to work on for INT499. Below is what was uploaded into the README file when creating the app initially. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
