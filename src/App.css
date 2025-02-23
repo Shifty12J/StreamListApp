@@ -92,3 +92,70 @@ main {
         background-color: #005f99;
         transform: scale(1.05);
     }
+
+.watchlist-table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    color: #1f445f;
+}
+
+    .watchlist-table th,
+    .watchlist-table td {
+        text-align: left;
+        border: 1px solid #ddd;
+        max-height: 10px;
+        min-height: 5px;
+    }
+
+    .watchlist-table th {
+        background-color: #007acc;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .watchlist-table td {
+        font-size: 15px;
+        font-weight: normal;
+        color: #081cb5;
+        font-family: 'Lucida Fax';
+        padding-left: 10px;
+    }
+
+        .watchlist-table td:last-child {
+            text-align: right;
+        }
+
+    .watchlist-table .placeholder {
+        color: #000000;
+        font-style: italic;
+        padding: 10px;
+    }
+
+.edit-button,
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+    .edit-button:hover {
+        color: #40be32;
+    }
+
+    .delete-button:hover {
+        color: #ff0000;
+    }
+
+.logo {
+    width: 300px; 
+    height: auto;
+    border-radius: 8px; 
+    }
+
